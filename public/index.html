@@ -2,14 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
       content="Web site created using create-react-app"
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+     <!-- FAVICON -->
+     <link href="images/favicon.png" rel="shortcut icon">
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -24,9 +24,22 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+        <!-- Bootstrap -->
+    <link href="plugins/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <!-- themify icon -->
+    <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+    <!-- Slick Carousel -->
+    <link href="plugins/slick/slick.css" rel="stylesheet">
+    <!-- Slick Carousel Theme -->
+    <link href="plugins/slick/slick-theme.css" rel="stylesheet">
+    
+    <!-- CUSTOM CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+
+    <title>خفايا الفنجان</title>
   </head>
-  <body>
+  <body class="body-wrapper">
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
@@ -39,5 +52,10 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
+    <script src="plugins/jquery/jquery.js"></script>
+    <script src="plugins/bootstrap/bootstrap.min.js"></script>
+    <script src="plugins/slick/slick.min.js"></script>
+    <script src="js/custom.js"></script>
   </body>
 </html>
