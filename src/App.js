@@ -12,6 +12,9 @@ function App() {
       <div className="collapse navbar-collapse mr-5" id="navbarNav">
         <ul className="navbar-nav ml-auto">
           <li className="nav-item">
+            <a className="nav-link scrollTo" href="https://khafayaalfengan.webtekdigital.com/backend/public"> تسجيل الدخول</a>
+          </li>
+          <li className="nav-item">
             <a className="nav-link scrollTo" href="#about">تواصل معنا</a>
           </li>
           <li className="nav-item">
@@ -309,6 +312,9 @@ function App() {
           </ul>
           {/* Footer Links */}
           <ul className="footer-links list-inline position">
+            <li className="list-inline-item">
+              <a className="scrollTo" href="https://khafayaalfengan.webtekdigital.com/backend/public"> تسجيل الدخول</a>
+            </li>
             <li className="list-inline-item">
               <a className="scrollTo" href="#team">تواصل معنا</a>
             </li>
