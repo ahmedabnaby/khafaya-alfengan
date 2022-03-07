@@ -146,12 +146,12 @@ function App() {
           <div className="feature-item">
             {/* Icon */}
             <div className="icon">
-              <i className="ti-brush-alt" />
+            <img className="img-fluid phone-thumb" src="/images/features/Horoscope.png" alt="iphone-banner" width="100" height="600" />
             </div>
             {/* Content */}
             <div className="content">
               <h5>قراءة الكفّ</h5>
-              <p>كل ما عليك فعله هو تصوير كفّيك بشكل واضح، وإرسال الصورة بواسطة تطبيق حظي</p>
+              <p>كل ما عليك فعله هو تصوير كفّيك بشكل واضح، وإرسال الصورة بواسطة تطبيق خفايا الفنجان</p>
             </div>
           </div>
           </Fade>
@@ -160,7 +160,7 @@ function App() {
           <div className="feature-item">
             {/* Icon */}
             <div className="icon">
-              <i className="ti-gift" />
+            <img className="img-fluid phone-thumb" src="/images/features/Horoscope.png" alt="iphone-banner" width="100" height="600" />
             </div>
             {/* Content */}
             <div className="content">
@@ -177,7 +177,7 @@ function App() {
           <div className="feature-item mb-0">
             {/* Icon */}
             <div className="icon">
-              <i className="ti-comments" />
+              <img className="img-fluid phone-thumb" src="/images/features/reading-cup.png" alt="iphone-banner" width="100" height="600" />
             </div>
             {/* Content */}
             <div className="content">
@@ -195,7 +195,7 @@ function App() {
           <div className="feature-item">
             {/* Icon */}
             <div className="icon">
-              <i className="ti-support" />
+            <img className="img-fluid phone-thumb" src="/images/features/deams.png" alt="iphone-banner" width="100" height="600" />
             </div>
             {/* Content */}
             <div className="content">
@@ -212,7 +212,7 @@ function App() {
           <div className="feature-item">
             {/* Icon */}
             <div className="icon">
-              <i className="ti-image" />
+            <img className="img-fluid phone-thumb" src="/images/features/taroot.png" alt="iphone-banner" width="100" height="600" />
             </div>
             {/* Content */}
             <div className="content">
@@ -226,7 +226,7 @@ function App() {
           <div className="feature-item">
             {/* Icon */}
             <div className="icon">
-              <i className="ti-pie-chart" />
+            <img className="img-fluid phone-thumb" src="/images/features/Read-face-and-ideas.png" alt="iphone-banner" width="100" height="600" />
             </div>
             {/* Content */}
             <div className="content">
