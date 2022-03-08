@@ -61,7 +61,7 @@ function App() {
           {/* App Image */}
           <Fade in>
           <div className="image-block">
-            <img className="img-fluid phone-thumb" src="images/app/Screenshot_1.png" alt="iphone-banner" />
+            <img className="img-fluid phone-thumb" src="images/phones/iphone.png" alt="iphone-banner" />
           </div>
           </Fade>
         </div>
@@ -79,7 +79,7 @@ function App() {
           {/* Image Content */}
         <Fade in delay={50}>
           <div className="image-block">
-            <img className="phone-thumb-md" src="images/app/Screenshot_4.png" alt="iphone-feature" />
+            <img className="phone-thumb-md" src="images/phones/iphone-feature.png" alt="iphone-feature" />
           </div>
           </Fade>
         </div>
@@ -146,7 +146,7 @@ function App() {
           <div className="feature-item">
             {/* Icon */}
             <div className="icon">
-            <img className="img-fluid phone-thumb" src="/images/features/Read-the-palm.png" alt="iphone-banner" width="100" height="600" />
+            <img className="img-fluid phone-thumb" src="/images/features/Horoscope.png" alt="iphone-banner" width="100" height="600" />
             </div>
             {/* Content */}
             <div className="content">
@@ -187,7 +187,7 @@ function App() {
           </div>
           </Fade>
           <div className="app-screen">
-            <img className="img-fluid" src="images/app/Screenshot_2.png" alt="app-screen" />
+            <img className="img-fluid" src="images/phones/i-phone-screen.png" alt="app-screen" />
           </div>
           {/* Feature Item */}
           <Fade in delay={1225}>
@@ -248,7 +248,7 @@ function App() {
     <div className="container">
       <div className="row">
         <div className="col-lg-5 text-center">
-          <div className="image-block"><img className="p-5 phone-thumb img-fluid" src="images/app/Screenshot_1.png" alt="" /></div>
+          <div className="image-block"><img className="p-5 phone-thumb img-fluid" src="images/phones/iphone-chat.png" alt="" /></div>
         </div>
         <div className="col-lg-7">
           <div className="content-block text-right">
